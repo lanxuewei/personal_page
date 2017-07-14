@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+    version="2.0">
+    <description>迭代输出articleVO对象</description>
+    <tlib-version>1.0</tlib-version>
+    <short-name>SimpleTagLibrary</short-name>
+    <uri>lanxuewei</uri>
+    <!-- 迭代articleVO输出 -->
+    <tag>
+    	<!-- 定义标签名 -->
+        <name>articleVO</name>
+		<!-- 定义标签处理类 -->
+        <tag-class>userdefinedtag.ArticleVOTag</tag-class>
+		<!-- 定义标签体不允许出现jsp脚本 -->
+		<body-content>scriptless</body-content>
+		<!-- 配置标签属性：articleVOList -->
+		<attribute>
+			<name>articleVOList</name>
+			<required>true</required>
+			<fragment>true</fragment>
+		</attribute>
+		<!-- 配置标签属性：item -->
+		<attribute>
+			<name>item</name>
+			<required>true</required>
+			<fragment>true</fragment>
+		</attribute>
+    </tag>
+
+</taglib>
+

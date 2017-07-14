@@ -1,0 +1,23 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+}
+/* 文章标题及分类 */
+.article-title-sorts{
+	margin-top: 20px;
+}
+.sorts{
+	margin-left: 20px;
+}
+
+/* 配图 */
+.img{
+	margin-top: 20px;
+}
+/* 引言 */
+.introduction{
+	margin-top: 20px;
+}
+.introduction-title{
+	float: left;
+}

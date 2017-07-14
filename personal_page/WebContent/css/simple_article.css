@@ -1,0 +1,94 @@
+﻿*{
+	margin: 0px;
+	padding: 0px;
+}
+.body{
+	font-family: Neue,\\5FAE软雅黑,Helvetica,Arial,sans-serif
+}
+.article-body{
+	width: 100%;
+	background: #efe7e7;
+	overflow: hidden;
+}
+/* 修饰条 */
+.article-modified-bar{
+	height: 60px;
+	width: 5px;
+	background: #fd7b68;
+	float: left;
+}
+/* 文章标题 */
+.article-title{
+	text-align: left;
+	padding: 14px 30px;
+	color: #2ca6cb;
+	font-size: 26px;
+	font-weight: 300;
+	letter-spacing: 1.5px;
+}
+/* 发表时间 */
+.article-date{
+	text-align: right;
+	padding: 5px 32px;
+	color: #757070;
+	font-size: 14px;
+	font-weight: 300;
+}
+/* 文章内容 */
+.article-mainBody{
+	text-align: center;
+	width: 94%;
+	margin: auto;
+	padding-bottom: 20px;	
+	border-bottom: 1px solid #beb3b3;
+}
+/* 文章正文 */
+.article-mainBody-show{
+	text-align: left;
+}
+/* 该文章的上下篇 */
+.article_pre_next{
+	margin: auto;
+	margin-top: 12px;
+	padding: 10px 0px;
+	text-align: left;
+	line-height: 36px;
+}
+.pre,.next{
+/* 	display: block; */
+	color: #2ca6cb;
+	font-size: 13px;
+}
+
+.article_pre_next a:HOVER{
+	color: #fd7b68;
+	text-shadow: 3px 2px 7px #fd7b68;
+}
+/* 发表时间 */
+.article-date{
+	font-size: 14px;
+	color: #757070;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+.article-mainBody span{
+	font-size: 17px;
+	color: #211c1c;
+	font-weight: 300px;
+}
+/* 说明 */
+.illustrate{
+	text-align: right;
+	padding: 12px 24px;
+	color: #757070;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+/* 分类 */
+.article-sorts{
+	text-align: left;
+	margin-top: 2px;
+	margin-bottom: -21px;
+	color: #757070;
+	font-size: 13px;
+}

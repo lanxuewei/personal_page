@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+  version="3.1"
+  metadata-complete="true"> 
+	<!-- <servlet>
+		<servlet-name>restServlet</servlet-name>
+		<servlet-class>test.TestServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>restServlet</servlet-name>
+		<url-pattern>/rest</url-pattern>
+	</servlet-mapping> -->
+	
+	<!-- <servlet>
+		<servlet-name>createPersonServlet</servlet-name>
+		<servlet-class>servlet.CreatePersonServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>createPersonServlet</servlet-name>
+		<url-pattern>/create_person</url-pattern>
+	</servlet-mapping> -->
+	
+	<!-- 编辑article -->
+	<servlet>
+		<servlet-name>EditArticleServlet</servlet-name>
+		<servlet-class>servlet.EditArticleServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditArticleServlet</servlet-name>
+		<url-pattern>/edit_article</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 根据sorts查询文章  -->
+	<servlet>
+		<servlet-name>QueryAllArticleServlet</servlet-name>
+		<servlet-class>servlet.QueryAllArticleServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>QueryAllArticleServlet</servlet-name>
+		<url-pattern>/Main</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 推荐阅读 -->
+<!-- 	<servlet>
+		<servlet-name>QueryRecommendReadingServlet</servlet-name>
+		<servlet-class>servlet.QueryRecommendReadingServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>QueryRecommendReadingServlet</servlet-name>
+		<url-pattern>/Main</url-pattern>
+	</servlet-mapping> -->
+	
+	<!-- 单文章显示 -->
+	<servlet>
+		<servlet-name>SimpleArticleServlet</servlet-name>
+		<servlet-class>servlet.SimpleArticleServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SimpleArticleServlet</servlet-name>
+		<url-pattern>/simple-article</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 文章标题模糊查找 -->
+	<servlet>
+		<servlet-name>FuzzySearchServlet</servlet-name>
+		<servlet-class>servlet.FuzzySearchServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FuzzySearchServlet</servlet-name>
+		<url-pattern>/fuzzy</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>  
+    	<welcome-file>Main</welcome-file>  
+	</welcome-file-list> 
+</web-app>

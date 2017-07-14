@@ -1,0 +1,222 @@
+﻿*{
+	margin: 0; 
+	padding: 0; 
+}
+ul{
+	/* 清除样式(清除圆点) */
+	list-style:none;
+}
+a{
+	/* 去除下划线 */
+	text-decoration: none;
+	/* 去除a标签点击后虚线框问题 */
+	outline: none;
+}
+body{
+	letter-spacing: 1px;
+	font-family: Helvetica Neue,\\5FAE\8F6F\96C5\9ED1,Helvetica,Arial,sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	/* 去除加粗 */
+	font-weight: normal;
+}
+
+/* 第一块面板 */
+.main-header{
+	width:100%;
+	/* 设置背景色以及字体为白色 */
+	background: #fd7b68;
+	color:#ffffff;
+	/* 内容居中 */
+	text-align: center;
+	overflow: hidden;
+}
+/* 标题和副标题 */
+.articletitle h2{
+/* 	position:relative;
+	top: 25px;  */
+	margin-top: 25px;
+	font-size: 32px;
+}
+.articletitle h5{
+	/* 上下边距 */
+	margin-top: 22px;
+	margin-bottom: 30px;
+	font-size: 20px
+}
+.main-header a{
+	color:#ffffff;
+	display:block;
+	/* 水平居中 */
+	height:30;
+	line-height:30px;
+	/* 上下边距 */
+	margin-top:3px;
+	margin-bottom: 3px;
+}
+.main-header a:hover{
+	color:black;
+	/* 文字阴影效果 */
+	text-shadow:3px 2px 6px #000000;
+}
+.navigation-bar{
+	/* 设置成块级元素 */
+	display: block;
+	/* 居中 */
+	margin:auto;
+	width: 60%;
+	height: 40px;
+}
+.navigation-bar li{
+	width:20%;
+	font-size: 17px;
+	float:left;
+}
+
+
+/* 第二块面板 */
+.content-warp{
+	background: #c0c0c0;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+/* 主体部分 */
+.main-body{
+/* 	position: relative;
+	top: 20px; */
+	width: 76%;
+	/* 颜色与第二块面板相同 */
+	background: #c0c0c0;
+	margin: auto;
+	margin-top: 20px;
+}
+.articles-body{
+	width: 75%;
+	background: #c0c0c0;
+	float: left;
+}
+/* 推荐阅读 */
+.suggested-reading{
+	height: 116px;
+	line-height: 81px;
+	width: 100%;
+	text-align: center;
+	background: #efe7e7;
+	margin-bottom: 5px;
+}
+.suggested-reading h2,.suggested-reading h5{
+	/*position: relative;
+	top: 15px; */
+	/* 去除加粗 */
+	font-weight: 300;
+	font-size: 24px;
+	/* 字间距 */
+	letter-spacing: 2px;
+	color: #353535;
+}
+.suggested-reading h5{
+	font-size: 13px;
+	margin-top: -41px;
+	letter-spacing: 1px;
+	color: #757070;
+}
+/* 文章 */
+.articles{
+	margin-top: 20px;
+ 	padding-top: 21px;
+	padding-bottom: 21px;
+	width: 100%;
+	background: #efe7e7;
+}
+.articles a:HOVER{
+	color: #fd7b68;
+	text-shadow: 3px 2px 7px #fd7b68;
+}
+.articles-border {
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+/* 文章标题 */
+.articles-title{
+	font-size: 23px;
+	font-weight: 300;
+	color: #2ca6cb;
+}
+/* 文章标题及时间 */
+.articles-author{
+	margin-top: 10px;
+	padding-bottom: 10px;
+	font-size: 13px;
+	font-weight: 300;
+	color: #757070
+}
+/* 文章引言 */
+.articles-introduction{
+	margin-top: 5px;
+	border-bottom: 1px solid #a7aaad;
+	padding-bottom: 15px;
+	font-size: 17px;
+	font-weight: 300;
+	color: #414040;
+	text-align: left;
+	letter-spacing: 1px;
+	line-height: 1.6;
+}
+.articles-introduction a{
+	color: #534f4f;
+}
+/* 分类 */
+.articles-sort{
+	margin-top: 11px;
+	text-align: left;
+	font-size: 13px;
+	color: #757070;
+}
+.paging{
+	margin-top: 13px;
+	margin-bottom: 30px;
+	color: #534f4f;
+	/* 隐藏 */
+	/* visibility: hidden; */
+}
+.paging a{
+	color: #534f4f;
+}
+.paging a:HOVER{
+	color: #fd7b68;
+	text-shadow: 3px 2px 6px #fd7b68;
+}
+
+/* 作者信息 */
+.author-info{
+	width: 23%;
+	background: #efe7e7;
+	float:right;
+}
+
+
+/* 第三块面板 */
+.main-footer{
+	width: 100%;
+	border-top: 3px solid #fd7b68;
+}
+.logo{
+	text-align: center;
+	background: #222222;
+	height: 140px;
+}
+.logo h2{
+	margin-left: 271px;
+	width: 10%;
+	height: 38px;
+	line-height: 38px; 
+	background: #fd7b68;
+	color: #ffffff;
+	font-weight: 300px;
+	font-size: 17px;
+}
+.logo p{
+	color: #ffffff;
+}

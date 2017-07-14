@@ -1,0 +1,116 @@
+﻿*{
+	padding: 0px;
+	margin: 0px;
+}
+/* 整块面板 */
+.author-info{
+	margin-bottom: 20px;
+}
+
+/* 模糊查找 */
+.fuzzy_search{
+	margin: 20px 18px;
+}
+/* 查找框 */
+.search{
+    width: 65%;
+    height: 28px;
+    border-radius: 6px;
+    border: 1px solid #b7b1b1;
+    font-weight: 300;
+    color: #534f4f;
+    letter-spacing: 0.6px;
+    /* 去除点击后的边框 */
+    outline: none;
+}
+/* 获得焦点 */
+.search:FOCUS{
+	border-color: #fc3333;
+    box-shadow: 3px 2px 12px -4px #fc3333;
+}
+/* 点击 */
+.search:ACTIVE{
+	border-color: #fc3333;
+	/* 阴影 */
+    box-shadow: 3px 2px 12px -4px #fc3333;
+}
+/* 查找按钮 */
+.search_btn{
+	width: 27%;
+    margin-left: 6px;
+    background-color: #fd7b68;
+    height: 30px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 0px solid;
+}
+.search_btn:ACTIVE{
+	outline: none;
+}
+.search_btn:HOVER {
+	background-color: #555;
+}
+/* 作者信息 */
+.author{
+	margin-bottom: 25px;
+}
+.author-main{
+	margin: auto;
+	border: 1px solid #dbd7d7;
+	width: 85%;
+	background: #efe7e7;
+}
+/* 背景图 */
+.author-background img{
+	height: 177px;
+	width: 100%;
+}
+.author-head img{
+	width: 28%;
+	border-radius: 110px;
+	border: 4px solid #efe7e7;
+	margin-top: -37px;
+}
+/* 作者姓名 */
+.author-name{
+	font-weight: 300;
+	font-size: 24px;
+	margin-top: 10px;
+}
+/* 分类 */
+.sorts-title{
+	text-align: left;
+	margin: 13px 11px;
+	color: #2ca6cb;
+	border-bottom: 1px solid #a5a3a3;
+	padding-bottom: 11px;
+}
+.sorts{
+	margin: 20px 13px;
+}
+.sorts li{
+	display: block;
+	height: 30px;
+	width: 90%;
+	border-bottom: 1px solid #d2d0d0;
+	line-height: 32px;
+	text-align: left;
+	padding: 2px 11px;
+}
+.sorts li:HOVER{
+	background: #e2dcdc;
+}
+.sorts a{
+/*  text-align: left; */ 
+ 	display: block; 
+	color: #534f4f;
+/* 	height: 24px;
+	width: 88%;
+	border-bottom: 1px solid #d2d0d0;
+	padding: 5px 13px; */
+}
+.sorts a:HOVER {
+/* 	color: #fd7b68;
+	text-shadow: 3px 2px 7px #fd7b68; 
+	background: #e2dcdc;*/
+}
